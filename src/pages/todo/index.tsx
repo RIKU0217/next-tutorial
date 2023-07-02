@@ -49,8 +49,8 @@ const TodoApp: FC = () => {
       <div className="flex mb-4">
         <input
           type="text"
-          className="rounded-md m-2 p-2 flex-1 border outline-none focus:ring-2 focus:ring-red-300"
-          placeholder="TODOを入力してね"
+          className="rounded-md m-2 p-2 flex-1 border outline-none focus:ring-2 focus:ring-red-500"
+          placeholder="TOを入力してね"
           value={inputValue}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
